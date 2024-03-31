@@ -141,4 +141,27 @@
 		margin-bottom: auto;
 		align-self: center;
 	}
+	@media only screen and (max-width: 600px) {
+		.header-container {
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+		.header-container > img {
+			height: 30px;
+		}
+		.header-container div {
+			font-size: 1em;
+		}
+		.content-container {
+			height: 100vh;
+		}
+		.title-container {
+			font-size: 1em;
+		}
+		.download-container {
+			width: 100%;
+			margin-top: 20px;
+			flex-direction: column;
+		}
+	}
 </style>

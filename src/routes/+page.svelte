@@ -27,7 +27,9 @@
 
 <div class="page-container">
 	<div class="header-container">
-		<img src="logo.png" alt="logo" />
+		<a href="/">
+			<img src="logo.png" alt="logo" />
+		</a>
 		<div>喵喵静听</div>
 	</div>
 
@@ -77,10 +79,10 @@
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 		border-radius: 10px;
 	}
-	.header-container > img {
+	.header-container > a > img {
 		height: 50px;
 	}
-	.header-container div {
+	.header-container > div {
 		display: inline-block;
 		margin-left: 10px;
 		font-size: 1.5em;

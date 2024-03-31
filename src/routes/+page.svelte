@@ -11,7 +11,7 @@
 		'download/smiao-v1.0.0.msi',
 		'download/smiao-v1.0.0.dmg',
 		'download/smiao-v1.0.0.apk',
-		'https://smiao.art'
+		'https://web.smiao.art'
 	];
 	let images = defaultImages.slice();
 	function mouseEnter(i: number) {

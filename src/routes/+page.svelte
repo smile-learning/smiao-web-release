@@ -27,7 +27,7 @@
 
 <div class="page-container">
 	<div class="header-container">
-		<a href="/">
+		<a href="/" on:click|preventDefault={() => location.reload()}>
 			<img src="logo.png" alt="logo" />
 		</a>
 		<div>喵喵静听</div>

@@ -91,8 +91,8 @@
 		display: flex;
 		flex: 1;
 		flex-direction: column;
-		justify-content: center;
-		height: 50vh;
+		justify-content: flex-start;
+		padding-top: 40px;
 	}
 
 	.title-container {

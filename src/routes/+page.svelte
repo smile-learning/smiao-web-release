@@ -63,12 +63,12 @@
 <style>
 	:global(body) :global(html) {
 		height: 100%;
+		background-color: #f4f4fc;
 	}
 	.page-container {
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
-		background-color: #f4f4fc;
 	}
 	.header-container {
 		margin-top: 20px;
@@ -89,6 +89,7 @@
 	}
 	.content-container {
 		display: flex;
+		flex: 1;
 		flex-direction: column;
 		justify-content: center;
 		height: 50vh;
@@ -140,6 +141,7 @@
 		margin-top: auto;
 		margin-bottom: auto;
 		align-self: center;
+		height: 50px;
 	}
 	@media only screen and (max-width: 600px) {
 		.header-container {

@@ -150,9 +150,6 @@
 			margin-top: 10px;
 			margin-left: 10px;
 		}
-		.header-container > img {
-			height: 30px;
-		}
 		.header-container div {
 			font-size: 1em;
 		}

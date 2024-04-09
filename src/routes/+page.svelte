@@ -10,7 +10,7 @@
 	let links = [
 		'download/smiao-v1.0.0.msi',
 		'download/smiao-v1.0.1.dmg',
-		'download/smiao-v1.0.0.apk',
+		'download/smiao-v1.0.1.apk',
 		'https://web.smiao.art'
 	];
 	let images = defaultImages.slice();
